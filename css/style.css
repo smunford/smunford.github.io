@@ -17,6 +17,31 @@ header {
   min-height: 100vh;
   display: flex;
 }
+.buttonBox {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.myButton {
+  border-radius: 28px;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 16px 31px;
+  text-decoration: none;
+  margin: 1.69em auto;
+}
+
+.myButton:hover {
+    background-color:#e69708;
+}
+
+.myButton:active {
+    position:relative;
+    top:1px;
+}
 
 main {
   display: grid;
@@ -128,9 +153,5 @@ footer {
   main {
     grid-template-columns: 1fr;
   }
-  img {
-    height: 40vh;
-.description {
-  font-size: 18px;
-}
-  }}
+  
+  }
